@@ -46,33 +46,43 @@
             </div>
         </div>
     </div>
-    <div class="container media">
-        <ul class="media__items">
-            <a class="media__link" href="https://www.instagram.com/shutout.co/">
-                <li class="media__list"><img src="./images/insta.png" width="64px" height="64px"></li>
-            </a>
-            <a class="media__link" href="https://www.tiktok.com/@shutout.company">
-                <li class="media__list"><img src="./images/tiktok.png" width="64px" height="77px"></li>
-            </a>
-            <a class="media__link" href="https://www.youtube.com/channel/UCAXLKv7RrQQK0qDlW3Ygg6A">
-                <li class="media__list"><img src="./images/youtube.png" width="64px" height="64px"></li>
-            </a>
-        </ul>
-        <div class="media__text">
-            <p class="media__info">SINCE 2021</p>
-            <p class="media__info">From ENERhODAR ®</p>
-        </div>
-        <div class="media__img">
-            <a href="https://www.youtube.com/watch?v=nybtOIxlku8">
-            <img src="./images/ukraine.png" width="84px" height="55px"></a>
-        </div>
-        <div class="media__location">
-            <p class="media__info">PRODUCTION IS LOCATED IN THE</p>
-            <p class="media__info">VINNITSA SITY</p>
-        </div>
+    <div class="container sort">
+        <button class="sort__button" type="button" aria-expanded="true" aria-controls="button__sort" data-sort-button>
+            <p class="sort__text">default sorting</p>
+        </button>
     </div>
-
+    <div class="container sort__box" data-sort>
+        <ul class="sort__items">
+            <li class="sort__list"><a href="/new.html" class="sort__link">NEW</a></li>
+            <li class="sort__list"><a href="/pants.html" class="sort__link">PANTS</a></li>
+            <li class="sort__list"><a href="/hoodies.html" class="sort__link">HOODIES</a></li>
+            <li class="sort__list"><a href="/jackets.html" class="sort__link">JACKETS</a></li>
+            <li class="sort__list"><a href="/tees.html" class="sort__link">TEES</a></li>
+            <li class="sort__list"><a href="/bags.html" class="sort__link">BAGS</a></li>
+            <li class="sort__list"><a href="/bangers.html" class="sort__link">BANGERS</a></li>
+            <li class="sort__list"><a href="/other.html" class="sort__link">OTHER</a></li>
+        </ul>
+    </div>
+    <div class="container clothe"><a href="" class="clothe__link">
+        <ul class="clothe__item">
+            <li class="clothe__list"><img class="clothe__image" src="./images/5.png" width="200px" height="350px">
+            </li>
+        </ul>
+        <p class="clothe__text">SHUTOUT BAG DELIVERY L</p>
+        <p class="clothe__text price">850₴</p>
+    </a>
+</div>
+<div class="container clothe"><a href="" class="clothe__link">
+        <ul class="clothe__item">
+            <li class="clothe__list"><img class="clothe__image" src="./images/6.png" width="200px" height="350px">
+            </li>
+        </ul>
+        <p class="clothe__text">SHUTOUT BAG DELIVERY S</p>
+        <p class="clothe__text price">750₴</p>
+    </a>
+</div>
     <script src="./menu.js"></script>
+    <script src="./sort.js"></script>
 </body>
 
 </html>
